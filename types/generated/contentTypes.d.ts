@@ -844,7 +844,6 @@ export interface ApiPlatformPlatform extends Schema.CollectionType {
     name: Attribute.String & Attribute.Required;
     slug: Attribute.UID<'api::platform.platform', 'name'>;
     order: Attribute.Integer & Attribute.Required & Attribute.Unique;
-    icon: Attribute.Media & Attribute.Required;
     category: Attribute.String & Attribute.Required & Attribute.Unique;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
