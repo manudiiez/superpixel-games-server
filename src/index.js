@@ -1,8 +1,5 @@
 'use strict';
 
-const mercadopago = require("mercadopago");
-
-
 module.exports = {
   /**
    * An asynchronous register function that runs before
@@ -18,7 +15,6 @@ module.exports = {
     //       ? process.env.MERCADO_PAGO_SAND_ACCESS_TOKEN
     //       : process.env.MERCADO_PAGO_PROD_ACCESS_TOKEN,
     // });
-    console.log(process.env.MERCADO_PAGO_SAND_ACCESS_TOKEN);
   },
 
   /**
